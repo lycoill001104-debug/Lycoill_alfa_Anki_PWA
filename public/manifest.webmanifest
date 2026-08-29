@@ -1,0 +1,14 @@
+{
+  "name": "αnki オフライン復習",
+  "short_name": "αnki",
+  "description": "Windows Ankiと同期するオフライン復習専用PWA",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f5f7",
+  "theme_color": "#f5f5f7",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
