@@ -13,6 +13,8 @@ PWA本体は一般的な静的HTTPSホスティングで動作します。ChatGP
 - 未同期レビューの冪等キュー
 - Web App Manifest / Service Worker
 - QRペアリング対応のWindows Anki同期アドオン
+- QRペアリング完了直後の自動初回同期
+- スクロール不要の1画面復習レイアウト
 - SafariのMixed Content制限を避けるローカル中継同期
 - Ankiのレンダリング済みカードHTMLをsandbox iframeで表示
 
@@ -41,7 +43,7 @@ npm run build
 
 インストール用ファイルは `dist-addon/alpha-anki-sync-0.4.0.ankiaddon` です。Windows Ankiの「ツール → アドオン → ファイルからインストール」から読み込み、Ankiを再起動してください。
 
-再起動後、最初に「ツール → αnki PWA URL設定」で静的ホスティングのHTTPS URLを保存します。その後「ツール → αnki PWA ペアリング」にQRコードを表示し、iPhoneのαnkiから読み取ります。
+再起動後、最初に「ツール → αnki PWA URL設定」で静的ホスティングのHTTPS URLを保存します。その後「ツール → αnki PWA ペアリング」にQRコードを表示し、iPhoneのαnkiから読み取ります。ペアリングが完了すると、初回同期が自動で始まります。
 
 ## 検証
 
