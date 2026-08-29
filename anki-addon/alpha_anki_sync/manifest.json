@@ -1,0 +1,9 @@
+{
+  "package": "alpha_anki_sync",
+  "name": "αnki PWA Sync",
+  "mod": 1787972400,
+  "author": "αnki",
+  "version": "0.4.0",
+  "description": "Sync due cards and review events with the αnki offline review PWA.",
+  "ankiweb_id": ""
+}
